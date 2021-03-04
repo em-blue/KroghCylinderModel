@@ -23,7 +23,7 @@ prm.K = 9.4e-10; % (cm^2/s)[cm^3 O_2 /(cm^3*Torr)] | Krogh diffusion constant in
 % NOTE: In the text [M0] are is listed as cm^3 *100 cm^3/min, but should be
 % listed as cm^3/(100 cm^3 * min )
 % prm.M0 = 40; % cm^3 O_2 (100 cm^3*min) | Oxygen demand 
-prm.M0 = 40/6000; % cm^3 O_2 / ( cm^3*s ) | Oxygen demand
+prm.M0 = 20/6000; % cm^3 O_2 / ( cm^3*s ) | Oxygen demand
 
 prm.P0 = 1; % Torr | Half-maximal oxygen consumption
 prm.Dmb = 1.73e-7; % cm^2/s | Myoglobin diffusion coefficient

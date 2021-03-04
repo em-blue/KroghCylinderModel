@@ -17,7 +17,7 @@ run KroghParams.m;
 
 
 %%
-close all
+% close all
 
 figure('outerposition',[1000,500,500,500])
 
